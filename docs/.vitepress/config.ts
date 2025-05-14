@@ -19,23 +19,30 @@ export default defineConfig({
       { text: '🏠 Inici', link: '/' },
       { text: '📋 Objectius', link: '/objectius' },
       { text: '📚 Continguts', items: [
-        { text: '1. Introducció', link: '/introduccio' },
-        { text: '2. Algoritme', link: '/algoritme' },
-        { text: '3. Cicle de Vida', link: '/cicle-vida' },
-        { text: "4. Representació d'Algoritmes", link: '/algoritmes' },
-        { text: "5. Elements d'un Programa", link: '/elements' }
+        { text: '1. Introducció', link: '/1-introduccio' },
+        { text: '2. Elements bàsics', link: '/2-elements' },
+        { text: '3. Tipus de dades', link: '/3-dades' },
+        { text: "4. Declaració de variables", link: '/4-variables' },
+        { text: "5. Operadors", link: '/5-operadors' },
+        { text: "6. Literals", link: '/6-literals' },
+        { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
+        { text: "8. Estructures alternatives", link: '/8-estructures' },
+        { text: "9. Exemples", link: '/9-exemples' },
       ]}
     ],
     sidebar: [
       {
         text: '📚 Continguts',
         items: [
-          { text: '📋 Objectius', link: '/objectius' },
-          { text: '📚 1. Introducció', link: '/introduccio' },
-          { text: '🔄 2. Algoritme', link: '/algoritme' },
-          { text: '⚡ 3. Cicle de Vida', link: '/cicle-vida' },
-          { text: "📊 4. Representació d'Algoritmes", link: '/algoritmes' },
-          { text: "🔧 5. Elements d'un Programa", link: '/elements' },
+          { text: '1. Introducció', link: '/1-introduccio' },
+          { text: '2. Elements bàsics', link: '/2-elements' },
+          { text: '3. Tipus de dades', link: '/3-dades' },
+          { text: "4. Declaració de variables", link: '/4-variables' },
+          { text: "5. Operadors", link: '/5-operadors' },
+          { text: "6. Literals", link: '/6-literals' },
+          { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
+          { text: "8. Estructures alternatives", link: '/8-estructures' },
+          { text: "9. Exemples", link: '/9-exemples' },
           { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
           { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]
