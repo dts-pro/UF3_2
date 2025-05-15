@@ -60,7 +60,11 @@ En resum la declaració de variables segueix el següent patró:
 
 És a dir, és **obligatori indicar el tipus i l'identificador** (a més d'acabar en punt i coma com totes les instruccions). Opcionalment (indicat entre claudàtors) es pot inicialitzar i/o es poden declarar més variables.
 
-**IMPORTANT**: Si una variable no ha sigut inicialitzada, Java li assigna un valor per defecte.
+::: tip **IMPORTANT!**
+
+Si una variable no ha sigut inicialitzada, Java li assigna un valor per defecte.
+
+:::
 
 Aquest valor és:
 
@@ -75,13 +79,13 @@ Es una bona pràctica inicialitzar sempre totes les variables.
 
 Les següents són paraules clau que no es poden utilitzar com a identificadors ja que Java les utilitza per a altres coses:
 
-![Paraules clau](../UD3/img/paraules_clau_java.jpg)
+![Paraules clau](/uf3/paraules_clau_java.jpg)
 
 ## 4.2. Paraules reservades
 
 A més, el llenguatge es reserva unes quantes paraules més, però que fins ara no tenen una finalitat especificada. Són:
 
-![Paraules reservades](../UD3/img/paraules_reserv_java.jpg)
+![Paraules reservades](/uf3/paraules_reserv_java.jpg)
 
 ## 4.3. Àmbit d'una variable
 
@@ -105,6 +109,8 @@ També poden declarar-se variables dins d'un bloc amb claus {...}. En aqueix cas
 
 **Per exemple** (no és necessari entendre el que fa el programa):
 
+::: details Exemple
+
 ```java
 public static void main(String[] args){
   int i;
@@ -112,6 +118,8 @@ public static void main(String[] args){
     System.out.println(i);
 }
 ```
+
+:::
 
 En aquest exemple existeix una variable local: int i; únicament pot utilitzar-se dins del bloc main on es va crear.
 

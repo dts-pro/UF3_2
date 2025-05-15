@@ -52,7 +52,8 @@ repetitives). Ho veurem més endavant.
 
 Els operadors relacionals actuen sobre valors sencers, reals i caràcters (char); i retornen un valor del tipus booleà (true o false).
 
->***Exemple:***
+>***Per exemple:***
+>::: details Codi
 >```java
 >public static void main(String[] args){
 >   double op1, op2;
@@ -69,10 +70,9 @@ Els operadors relacionals actuen sobre valors sencers, reals i caràcters (char)
 >   System.out.println("op1==op2 = " + (op1 == op2));
 >   System.out.println("op1!=op2 = " + (op1 != op2));
 >   System.out.println("'a' > 'b' = " + (op3 > op4));
->
 >}
 >```
->
+>:::
 >***Eixida***
 >```
 >
@@ -83,6 +83,7 @@ Els operadors relacionals actuen sobre valors sencers, reals i caràcters (char)
 >op1!=op2 = true
 >'a' > 'b' = false
 >```
+
 ## 5.3. Lògics
 
 | Operador | Format       | Descripció                                                   |
@@ -93,7 +94,8 @@ Els operadors relacionals actuen sobre valors sencers, reals i caràcters (char)
 
 Aquests operadors actuen sobre operadors o expressions lògiques, és a dir, aquells que s'avaluen a cert o fals (true / false).
 
->**Exemple:**
+>***Per exemple:***
+>::: details Codi
 >```java
 >public static void main(String[] args){
 >   
@@ -115,8 +117,11 @@ Aquests operadors actuen sobre operadors o expressions lògiques, és a dir, aqu
 >   System.out.println("(3 > 4) Y true = " + (3 > 4) && a);
 >}
 >```
+>:::
 >**Eixida:**
+>
 >```
+>
 >true Y true = true
 >true Y false = false
 >false Y false = false
@@ -125,6 +130,7 @@ Aquests operadors actuen sobre operadors o expressions lògiques, és a dir, aqu
 >NO true = false
 >NO false = true
 >(3 > 4) Y true = false
+>
 >```
 
 ## 5.4. D'assignació
@@ -184,19 +190,26 @@ necessari que sàpies què fan.
 
 Es troben a faltar operadors matemàtics més potents a Java. Per això s'ha inclòs una classe especial anomenada Math dins del paquet java.lang. Aquesta classe posseeix molts mètodes molt interessants per a realitzar càlculs matemàtics complexos com a càlcul de potències, arrels quadrades, valors absoluts, si, cosinus, etc.
 
->***Per exemple:***
->```java
->double x = Math.pow(3,3); // Potència 3 ^ 3
->double i = Math.sqrt(9); // Arrel quadrada de 9
->```
+::: details ***Per exemple:***
+
+```java
+
+double x = Math.pow(3,3); // Potència 3 ^ 3
+double i = Math.sqrt(9); // Arrel quadrada de 9
+
+```
 
 També posseeix constants com:
 
->```java
->double PI = Math.PI; // El número Π (3,14159265…)
->double E =  Math.E; // El número e (2,7182818245...)
->```
+```java
+
+double PI = Math.PI; // El número Π (3,14159265…)
+double E =  Math.E; // El número e (2,7182818245...)
+
+```
+
+:::
 
 Alguns exemples d'altres mètodes:
 
-![Exemples mètodes](../UD3/img/exemples_metodes.jpg)
+![Exemples mètodes](/uf3/exemples_metodes.jpg)

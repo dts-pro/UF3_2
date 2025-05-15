@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'ca-ES',
-  title: 'Fonaments de Programació',
-  description: 'Unitat Formativa 01 - Fonaments de Programació',
+  title: 'Introducció a Java',
+  description: 'Unitat Formativa 03 - Introducció a Java',
   base: '/vitepress-template/',
   outDir: './dist',
   head: [
@@ -13,7 +13,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Fonaments de Programació',
+    siteTitle: 'Introducció a Java',
     logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/' },
@@ -27,7 +27,13 @@ export default defineConfig({
         { text: "6. Literals", link: '/6-literals' },
         { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
         { text: "8. Estructures alternatives", link: '/8-estructures' },
-        { text: "9. Exemples", link: '/9-exemples' },
+        { text: "Exemples", link: '/9-exemples' },
+      ]},
+      { text: '📚 Continguts addicionals', items: [
+        { text: 'Introducció a les classes Math, String i Scanner', link: '/10-add_intro' },
+        { text: 'La lasse Math', link: '/11-add_math' },
+        { text: 'La lasse String', link: '/12-add_string' },
+        { text: "La classe Scanner", link: '/13-add_scanner' },
       ]}
     ],
     sidebar: [
@@ -42,11 +48,18 @@ export default defineConfig({
           { text: "6. Literals", link: '/6-literals' },
           { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
           { text: "8. Estructures alternatives", link: '/8-estructures' },
-          { text: "9. Exemples", link: '/9-exemples' },
-          { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: "Exemples", link: '/9-exemples' },
+          
         ]
-      }
+      },
+      { text: '📚 Continguts addicionals', items: [
+        { text: 'Introducció a les classes Math, String i Scanner', link: '/10-add_intro' },
+        { text: 'La classe Math', link: '/11-add_math' },
+        { text: 'La classe String', link: '/12-add_string' },
+        { text: "La classe Scanner", link: '/13-add_scanner' },
+        { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+        { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+      ]}
     ],
     socialLinks: [
       { icon: 'github', link: '' }

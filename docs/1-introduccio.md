@@ -18,18 +18,22 @@ Les característiques de Java són:
 
 L'aplicació més xicoteta possible és la que simplement imprimeix un missatge en la pantalla. Tradicionalment, el missatge sol ser "Hola Mundo!". Això és justament el que fa el següent fragment de codi:
 
+::: details "Hola món"
+
 ```java
-public class HolaMundo{
+public class HolaMon{
     public static void main(String[] args){
-        System.out.printin("Hola mundo!");
+        System.out.printin("Hola món!");
     }
 }
 ```
 
+:::
+
 Cal veure detalladament l'aplicació anterior, línia a línia. Aqueixes línies de codi contenen els components mínims per a imprimir *Hola Món!* en la pantalla. És un exemple molt simple, que no instància objectes de cap altra classe; no obstant això, accedeix a una altra classe inclosa en el JDK.
 
 ```java
-public class HolaMundo
+public class HolaMon
 ```
 
 Aquesta línia declara la classe HolaMundo. El nom de la classe especificat en el fitxer font s'utilitza per a crear un fitxer nombredeclase.class en el directori en el qual es compila l'aplicació. En aquest cas, el compilador crearà un fitxer anomenat HolaMundo.class.
@@ -51,4 +55,8 @@ System.out.println("Hola Món!");
 
 Aquesta és la funcionalitat de l'aplicació. Aquesta línia mostra l'ús d'un nom de classe i mètode. S'usa el **mètode println()** de la **classe out** que està en el **paquet System**. El mètode println() agafa una cadena com a argument i l'escriu en el stream d'eixida estàndard; en aquest cas, la finestra on es llança l'aplicació. La classe PrintStream té un mètode instanciable anomenat println(), que el que fa és presentar en l'eixida estàndard del Sistema l'argument que se li passe. En aquest cas, s'utilitza la variable o instància d'out per a accedir al mètode.
 
-**IMPORTANT!**: Totes les instruccions (creació de variables, anomenades a mètodes,assignacions) s'han de finalitzar amb un **punt i coma**.
+::: tip **IMPORTANT!**
+
+Totes les instruccions (creació de variables, anomenades a mètodes,assignacions) s'han de finalitzar amb un **punt i coma**.
+
+:::

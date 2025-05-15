@@ -23,6 +23,10 @@ Tipus de dades simples suportades per Java:
 | char    | Un sol caràcter                                | 2 bytes         |                                                 |
 | boolean | Valor lògic                                    | 1 bit           | true o false                                    |
 
-**IMPORTANT!**: **Java no realitza** una **comprovació** dels **rangs**. És a dir, si a una variable de tipus short amb el valor 32.767 se li suma 1, sorprenentment el resultat serà -32.768 (no produeix un error de tipus desbordament com en altres llenguatges de programació, sinó que **es comporta de manera cíclica**).
+::: tip **IMPORTANT!**
+
+**Java no realitza** una **comprovació** dels **rangs**. És a dir, si a una variable de tipus short amb el valor 32.767 se li suma 1, sorprenentment el resultat serà -32.768 (no produeix un error de tipus desbordament com en altres llenguatges de programació, sinó que **es comporta de manera cíclica**).
+
+:::
 
 Existeix un **<u>tipus de dada composta</u>** anomenada **String** que convé conéixer ja que permet representar text. Més endavant veurem com s'utilitza.

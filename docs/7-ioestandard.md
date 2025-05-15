@@ -8,8 +8,12 @@ Ja hem vist l'ús de System.out per a mostrar informació per pantalla:
 - println(“...”) imprimeix text per pantalla i introdueix un salt de línia.
 
 La utilització de System.err seria totalment anàloga per a enviar els missatges produïts per errors en l'execució (és el canal que usa també el compilador per a notificar els errors trobats).  
->**Per exemple**, per a presentar el missatge de salutació habitual per pantalla, i després un missatge d'error, tindríem la següent classe (encara que en realitat tota la >informació va a la consola de comandos on estem executant el programa):
+
+>***Per exemple:***
 >
+>Per a presentar el missatge de salutació habitual per pantalla, i després un missatge d'error, tindríem la següent classe (encara que en realitat tota la informació va a la consola de comandos on estem executant el programa):
+>
+>::: details Codi
 >```java
 >public static void main(String[] args){
 >
@@ -18,16 +22,19 @@ La utilització de System.err seria totalment anàloga per a enviar els missatge
 >   System.err.println(”Mensaje de error”);
 >}
 >```
->
+>:::
 >I l'eixida seria la següent:
 >```
 >HOLA mundo  
 >Mensaje de error
 >```
+>
+>
 
 També poden imprimir-se variables de qualsevol tipus, així com combinacions de text i variables concatenades amb l'operador +:
 
 >***Per exemple:***
+>::: details Codi
 >```java
 >public static void main(String[] args){
 >   String nombre = 'Pepito';
@@ -37,7 +44,7 @@ També poden imprimir-se variables de qualsevol tipus, així com combinacions de
 >   System.out.println(nombre + " tiene " + edad " años");
 >}
 >```
->
+>:::
 >I l'eixida seria la següent:
 >```
 >Pepito
@@ -73,14 +80,20 @@ El mètode reader.**nextLine()** recollirà el text que l'usuari escriga per tec
 
 No existeixen mètodes de la classe Scanner per a obtindre directament booleans ni per a obtindre un sol caràcter.
 
-**IMPORTANT!**: Per a poder utilitzar la classe Scanner és necessari importar-la des del paquet ***java.util*** de Java. És a dir, a dalt del tot (abans del public class…) cal escriure la següent sentència:
+::: tip **IMPORTANT!**
+
+Per a poder utilitzar la classe Scanner és necessari importar-la des del paquet ***java.util*** de Java. És a dir, a dalt del tot (abans del public class…) cal escriure la següent sentència:
+
+:::
 
 ```java
 import java.util.Scanner;
 ```
 
->***Exemple:*** llegim una cadena de text i la mostrem per pantalla:
+>***Exemple:*** 
 >
+>Llegim una cadena de text i la mostrem per pantalla:
+>:::details Codi
 >```java
 >import java.util.Scanner;
 >
@@ -95,7 +108,7 @@ import java.util.Scanner;
 >   }
 >}
 >```
->
+>:::
 >I l'eixida és;
 >
 >```
@@ -103,9 +116,12 @@ import java.util.Scanner;
 >Hola Pepito
 >```
 
-Exemple en el qual llegim un valor tipus double. El programa demana a l'usuari que introduïsca el radi d'un cercle, després calcula la seua àrea i circumferència, finalment el mostra per pantalla.
-
->***Exemple:*** llegim un valor de tipus double:
+>***Exemple:***
+>
+>Llegim un valor de tipus double:
+>
+>Exemple en el qual llegim un valor tipus double. El programa demana a l'usuari que introduïsca el radi d'un cercle, després calcula la seua àrea i circumferència, finalment el mostra per pantalla.
+>::: details Codi
 >```java
 >import java.util.Scanner;
 >
@@ -123,7 +139,7 @@ Exemple en el qual llegim un valor tipus double. El programa demana a l'usuari q
 >   }
 >}
 >```
->
+>:::
 >I l'eixida és;
 >
 >```

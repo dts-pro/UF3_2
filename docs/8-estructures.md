@@ -12,7 +12,7 @@ L'alternativa simple es codifica de la següent forma:
 
 |Codi|Ordinograma|
 |----|-----------|
-|**if (condició){ <br> //Accions <br>}** <br> El bloc d'Accions s'executa si la condició s'avalua a true (és vertadera). <br> **if (cont == 0){ <br> System.out.println(“cont és 0”); <br> //més instruccions... <br> }** <br> Si dins del if només hi ha una instrucció, no és necessari posar les claus. <br> **if (cont == 0) System.out.println(“cont és 0”);** | ![Estructura if](../UD3/img/estructura_if.jpg) |
+|**if (condició){ <br> //Accions <br>}** <br> El bloc d'Accions s'executa si la condició s'avalua a true (és vertadera). <br> **if (cont == 0){ <br> System.out.println(“cont és 0”); <br> //més instruccions... <br> }** <br> Si dins del if només hi ha una instrucció, no és necessari posar les claus. <br> **if (cont == 0) System.out.println(“cont és 0”);** | ![Estructura if](/uf3/estructura_if.jpg) |
 
 ## 8.2. Estructura alternativa Doble (if-else)
 
@@ -20,14 +20,20 @@ L'alternativa doble permet indicar quin codi executar si la condició és falsa.
 
 |Codi|Ordinograma|
 |----|-----------|
-|**if (condició){ <br> //AccionsSI <br>} else{ <br> // AccionsNO <br> }** <br> El bloc AccionsSI s'executa si la condició s'avalua a true (vertadera). En cas contrari, s'executa el bloc de AccionsNO. <br> **if (cont == 0){ <br> System.out.println(“cont és 0”); <br> // més instruccions... <br> } else { <br> System.out.println("cont no és 0"); <br> //més instruccions... <br>}** <br> Si dins del if només hi ha una instrucció, no és necessari posar les claus. <br> **if (cont == 0) System.out.println(“cont és 0”); <br> else <br> System.out.println(“cont no és 0”);** | ![Estructura if](../UD3/img/estructura_if_else.jpg) |
+|**if (condició){ <br> //AccionsSI <br>} else{ <br> // AccionsNO <br> }** <br> El bloc AccionsSI s'executa si la condició s'avalua a true (vertadera). En cas contrari, s'executa el bloc de AccionsNO. <br> **if (cont == 0){ <br> System.out.println(“cont és 0”); <br> // més instruccions... <br> } else { <br> System.out.println("cont no és 0"); <br> //més instruccions... <br>}** <br> Si dins del if només hi ha una instrucció, no és necessari posar les claus. <br> **if (cont == 0) System.out.println(“cont és 0”); <br> else <br> System.out.println(“cont no és 0”);** | ![Estructura if](/uf3/estructura_if_else.jpg) |
 
-**IMPORTANT**: Recordeu que l'operador relacional per a comprovar si són iguals és ==, no un sol = que correspon amb l'operador d'assignació. Aquest error no el detecta el compilador i és difícil d'esbrinar.
+::: tip **IMPORTANT!**
+
+Recordeu que l'operador relacional per a comprovar si són iguals és ==, no un sol = que correspon amb l'operador d'assignació. Aquest error no el detecta el compilador i és difícil d'esbrinar.
+
+:::
 
 En moltes ocasions, es lliguen estructures alternatives if-else, de manera que es pregunte per una condició si anteriorment no s'ha complit una altra successivament.  
 
 >**Exemple:**  
 >Per exemple, suposem que realitzem un programa que mostra la nota d'un alumne en la forma (insuficient, suficient, bé, notable o excel·lent) en funció de la seua nota numèrica. Podria codificar-se de la següent forma:
+>
+>::: details Exemple
 >
 >```java
 >import java.util.Scanner;
@@ -58,6 +64,8 @@ En moltes ocasions, es lliguen estructures alternatives if-else, de manera que e
 >}
 >
 >```
+>
+>:::
 >
 >I l'eixida és:
 >

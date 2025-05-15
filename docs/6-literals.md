@@ -18,35 +18,44 @@ Els literals de tipus enters (nombres enters): byte, short, int i long poden exp
 En Java, el compilador identifica un enter decimal (base 10) en trobar un número el primer dígit del qual és qualsevol símbol decimal excepte el zero (de l'1 al 9). A continuació poden aparéixer dígits del 0 al 9.  
 La lletra L al final d'un literal de tipus sencer pot aplicar-se a qualsevol sistema de numeració i indica que el nombre decimal siga tractat com un enter llarg (de 64 bits). Aquesta lletra L pot ser majúscula o minúscula, encara que és aconsellable utilitzar la majúscula ja que en cas contrari pot confondre's amb el dígit un (1) en els llistats.
 
->***Exemple:***
->```java
->long max1 = 9223372036854775807L; //aquest és el valor màxim per a un enter llarg
->```
+::: details ***Exemple:***
+
+```java
+long max1 = 9223372036854775807L; //aquest és el valor màxim per a un enter llarg
+```
+
+:::
 
 ## 6.3. Literals reals
 
 Els literals de tipus real serveixen per a indicar valors float o double. A diferència dels literals de tipus sencer, **no poden expressar-se en octal o hexadecimal**.  
 Existeixen dos formats de representació: mitjançant la seua part sencera, el punt decimal ( . ) i la part fraccionària; o mitjançant notació exponencial o científica:
 
->***Exemples equivalents:***
->```
->3.1415
->0.31415e1
->.31415e1 0.031415E+2
->.031415e2 314.15e-2
->31415E-4
->```
+::: details ***Exemples equivalents:***
+
+```
+3.1415
+0.31415e1
+.31415e1 0.031415E+2
+.031415e2 314.15e-2
+31415E-4
+```
+
+:::
 
 Igual que els literals que representen sencers, es pot posar una lletra com a sufix. Aquesta lletra pot ser una F o una D (majúscula o minúscula indistintament).
 
 - F --> Tracta el literal com de tipus float.
 - D --> Tracta el literal com de tipus double.
 
->***Exemple:***
->```
->3.1415F
->.031415d
->```
+::: details ***Exemple:***
+
+```
+3.1415F
+.031415d
+```
+
+:::
 
 ## 6.4. Literals caràcter
 
@@ -83,24 +92,26 @@ Entre les cometes dobles pot incloure's qualsevol caràcter del codi Unicode (o 
 
 Així, per exemple, per a incloure un canvi de línia dins d'un literal de tipus string haurà de fer-se mitjançant la seqüència de fuita \n:
 
->***Exemples equivalents:***
->
->```java
->System.out.println(”Primera línia\nSegunda línia del string\n”); 
->System.out.println(”Hola”);
->```
->
->La visualització del string anterior mitjançant println() produiria la següent eixida per
-pantalla:
->
->```java
->Primera línia
->Segunda línia del string
->
->Hola
->```
+::: details ***Exemples equivalents:***
+
+```java
+System.out.println(”Primera línia\nSegona línia del string\n”); 
+System.out.println(”Hola”);
+```
+
+La visualització del string anterior mitjançant println() produiria la següent eixida per pantalla:
+
+```java
+Primera línia
+Segona línia del string
+
+Hola
+```
+
+:::
 
 La manera d'incloure els caràcters cometes dobles ( “ ) i contrabarra ( \ ) és mitjançant les seqüències de fuita \” i \\ respectivament (o mitjançant el seu codi Unicode precedit de \ ).
 
 Si el String és massa llarg i ha de dividir-se en diverses línies en el fitxer font, pot utilitzar-se l'operador de concatenació de Strings (+) de la següent forma:
+
 ”Aquest String és massa llarg per a estar en una línia del ” + ”fitxer font i s'ha dividit en dues.”
