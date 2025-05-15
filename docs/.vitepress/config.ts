@@ -33,6 +33,7 @@ export default defineConfig({
       { text: '📚 Continguts addicionals', items: [
         { text: 'Les classes Math, String i Scanner', link: '/11-add_intro' },
         { text: 'Operador condicional', link: '/12-operador_cond' },
+        { text: 'Guia de NetBeans', link: '/13-guia_netbeans' },
       ]}
     ],
     sidebar: [
@@ -55,6 +56,7 @@ export default defineConfig({
       { text: '📚 Continguts addicionals', items: [
         { text: 'Les classes Math, String i Scanner', link: '/11-add_intro' },
         { text: 'Operador condicional', link: '/12-operador_cond' },
+        { text: 'Guia de NetBeans', link: '/13-guia_netbeans' },
         { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
         { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
       ]}

@@ -17,7 +17,7 @@ valor = expresin_2;
 
 |Operador|Descripció|Exemple d'expressió|Resultat de l'exemple|
 |--------|----------|-------------------|---------------------|
-|?:|operador condicional|a = 4; <br> b = a == 4 ? a+5 : 6-a; <br> b = a > 4 ? a*7 : a + 8; | <br> b val 9 <br> b val 12 |
+|?|operador condicional|a = 4; <br> b = a == 4 ? a+5 : 6-a; <br> b = a > 4 ? a*7 : a + 8; | <br> b val 9 <br> b val 12 |
 
 >***Exemple:***
 >::: details Codi
