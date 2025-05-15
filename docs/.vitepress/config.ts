@@ -28,12 +28,11 @@ export default defineConfig({
         { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
         { text: "8. Estructures alternatives", link: '/8-estructures' },
         { text: "Exemples", link: '/9-exemples' },
+        { text: "Exercicis", link: '/10-exercicis' },
       ]},
       { text: '📚 Continguts addicionals', items: [
-        { text: 'Introducció a les classes Math, String i Scanner', link: '/10-add_intro' },
-        { text: 'La lasse Math', link: '/11-add_math' },
-        { text: 'La lasse String', link: '/12-add_string' },
-        { text: "La classe Scanner", link: '/13-add_scanner' },
+        { text: 'Les classes Math, String i Scanner', link: '/11-add_intro' },
+        { text: 'Operador condicional', link: '/12-operador_cond' },
       ]}
     ],
     sidebar: [
@@ -48,15 +47,14 @@ export default defineConfig({
           { text: "6. Literals", link: '/6-literals' },
           { text: "7. Eixida i entrada estàndard", link: '/7-ioestandard' },
           { text: "8. Estructures alternatives", link: '/8-estructures' },
-          { text: "Exemples", link: '/9-exemples' },
+          { text: "💡Exemples", link: '/9-exemples' },
+          { text: "✏️Exercicis", link: '/10-exercicis' },
           
         ]
       },
       { text: '📚 Continguts addicionals', items: [
-        { text: 'Introducció a les classes Math, String i Scanner', link: '/10-add_intro' },
-        { text: 'La classe Math', link: '/11-add_math' },
-        { text: 'La classe String', link: '/12-add_string' },
-        { text: "La classe Scanner", link: '/13-add_scanner' },
+        { text: 'Les classes Math, String i Scanner', link: '/11-add_intro' },
+        { text: 'Operador condicional', link: '/12-operador_cond' },
         { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
         { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
       ]}
