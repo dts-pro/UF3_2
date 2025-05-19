@@ -62,11 +62,16 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i prÃ
 
 :::
 
-::::tabs
-== Primera pestanya
-Contingut de la primera pestanya.
-== Segona pestanya
-Contingut de la segona pestanya.
-== Tercera pestanya
-Contingut de la tercera pestanya.
-::::
+:::tabs key:ab
+== tab a
+a content
+== tab b
+b content
+:::
+
+:::tabs key:ab
+== tab a
+a content 2
+== tab b
+b content 2
+:::
