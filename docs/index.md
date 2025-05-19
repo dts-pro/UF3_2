@@ -62,3 +62,11 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i prÃ
 
 :::
 
+::::tabs
+== Primera pestanya
+Contingut de la primera pestanya.
+== Segona pestanya
+Contingut de la segona pestanya.
+== Tercera pestanya
+Contingut de la tercera pestanya.
+::::
