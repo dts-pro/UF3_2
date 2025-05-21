@@ -81,7 +81,7 @@ En moltes ocasions, es lliguen estructures alternatives if-else, de manera que e
 
 |Codi|Ordinograma|
 |----|-----------|
-|**switch (expressió) {<br> case Valor1: <br> //Accions1; break; <br> case Valor2: <br> //Accions2; break; <br> case ValorN: <br> //AccionsN; break; <br> default: <br> //Accions per defecte; <br>}**  | ![Estructura switch](../UD3/img/estructura_switch.jpg) |
+|**switch (expressió) {<br> case Valor1: <br> //Accions1; break; <br> case Valor2: <br> //Accions2; break; <br> case ValorN: <br> //AccionsN; break; <br> default: <br> //Accions per defecte; <br>}**  | ![Estructura switch](/uf3/estructura_switch.jpg) |
 
 És molt important entendre que en el switch s'avalua una expressió (un valor concret com 0, 5, 1…) no una condició (vertadera o falsa) com en el if i el if-else.  
 El programa comprova el valor de l'expressió i saltarà al ‘case’ que corresponga amb aquest valor (valor1 o valor2 o …) executant el codi de dita ‘case’ (Accions1 o Accions2 o …). Si no coincideix cap valor, saltarà al ‘default’ i executarà les accions per defecte.  

@@ -6,7 +6,7 @@ Programa que llig dos números, calcula i mostra el valor de les seues suma, res
 
 ### 9.1.1. Diagrama de flux
 
-![Diagrama de flix - Ex. 1](../UD3/img/Flux_exemple1.jpg)
+![Diagrama de flix - Ex. 1](/uf3/Flux_exemple1.jpg)
 
 ### 9.1.2. Codi
 
@@ -65,7 +65,7 @@ Programa que llig un número i em diu si és positiu o negatiu. Considerarem el 
 
 ### 9.2.1 Diagrama de flux
 
-![Diagrama de flix - Ex. 2](../UD3/img/Flux_exemple2.jpg)
+![Diagrama de flix - Ex. 2](/uf3/Flux_exemple2.jpg)
 
 ### 9.2.2. Codi
 
