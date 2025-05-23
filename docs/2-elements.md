@@ -2,7 +2,10 @@
 
 ## 2.1. Comentaris
 
-A Java hi ha tres tipus de comentaris:
+A Java hi ha distints tipus de comentaris:
+
+::: tabs
+== Java
 
 ```java
 // comentaris per a una sola línia
@@ -17,6 +20,8 @@ comentaris d'una o més línies
 ```java
 /** comentari de documentació, d'una o més línies */
 ```
+
+:::
 
 Els comentaris de documentació, col·locats immediatament abans d'una declaració (de variable o funció), indiquen que aqueix comentari ha de ser col·locat en la documentació que es genera automàticament quan s'utilitza l'eina de Java, javadoc, no disponible en altres llenguatges de programació. Aquest tipus de comentari el veurem més endavant.
 
@@ -41,16 +46,21 @@ Regles per a la creació d'identificadors:
 >- comptador  
 >- suma  
 >- edat  
->- sueldoBruto  
->- sueldoNeto  
+>- souBrut
+>- souNet
 >- nom_usuari  
 >- nom_Complet  
 >- lletraDni
 >
 >I el seu ús seria, per exemple:
 >
+>::: tabs
+>== Java
+>
 >```java
 >int comptador; // crea variable de tipus int anomenada comptador 
 >float sueldoNeto; // crea variable de tipus float anomenada sueldoNeto 
 >char letraDni; // crea variable de tipus char anomenada letraDni
 >```
+>
+>:::

@@ -46,7 +46,7 @@ principal **java.lang**.
 
 Addicionalment, hem de tenir en compte que el paquet **java.lang** és el paquet per defecte de Java, de manera que totes les funcions que veurem a continuació es poden utilitzar sense haver de fer cap menció explícita a aquest paquet.Tot el que veurem a continuació ho podem fer creant-nos una classe **Prova**.
 
-Un cop al cos del mètode principal començarem a teclejar la següent instrucció:
+Una vegada al cos del mètode principal començarem a teclejar la següent instrucció:
 
 `***int arrel=Math.***`
 

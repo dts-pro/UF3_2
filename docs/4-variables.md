@@ -1,5 +1,11 @@
 # 4. Declaració de variables
 
+A continuació, es mostren diverses formes de declarar i inicialitzar variables:
+
+::: tabs
+
+=== Java
+
 La forma bàsica de declarar (crear) una variable és la següent:
 
 ```java
@@ -12,7 +18,12 @@ Per exemple, creem una variable de tipus int anomenada edat:
 int edat;
 ```
 
+:::
+
 Les variables poden ser inicialitzades en el moment de la seua declaració, és a dir, se'ls pot donar un valor inicial en crear-les. Per exemple, creem una variable de tipus int anomenada edat i li assignem 25 com a valor inicial:
+
+::: tabs
+== Java
 
 ```java
 int edat = 25;
@@ -25,7 +36,12 @@ int edat;
 edat = 25;
 ```
 
+:::
+
 També és possible declarar diverses variables en una sola línia. Per exemple, creem tres variables de tipus float anomenades precio1, precio2 i precio3:
+
+::: tabs
+== Java
 
 ```java
 float preu1, preu2, preu3;
@@ -39,7 +55,12 @@ float preu2;
 float preu3;
 ```
 
+:::
+
 Al seu torn, també poden inicialitzar-se. Per exemple:
+
+::: tabs
+== Java
 
 ```java
 float preu1 = 7.0, preu2 = 7.25, preu3 = 0.5;
@@ -53,10 +74,17 @@ float preu2 = 7.25;
 float preu3 = 0.5;
 ```
 
+:::
+
 En resum la declaració de variables segueix el següent patró:
 
+::: tabs
+== Java
+
 | **tipus identificador** [ = valor][,identificador [= valor] ...]; |
-|---------------------------------------------------------------|
+|-------------------------------------------------------------------|
+
+:::
 
 És a dir, és **obligatori indicar el tipus i l'identificador** (a més d'acabar en punt i coma com totes les instruccions). Opcionalment (indicat entre claudàtors) es pot inicialitzar i/o es poden declarar més variables.
 
@@ -109,7 +137,9 @@ També poden declarar-se variables dins d'un bloc amb claus {...}. En aqueix cas
 
 **Per exemple** (no és necessari entendre el que fa el programa):
 
-::: details Exemple
+::: tabs
+== Java
+
 
 ```java
 public static void main(String[] args){
@@ -126,6 +156,9 @@ En aquest exemple existeix una variable local: int i; únicament pot utilitzar-s
 ## 4.4. Constants (final)
 
 En declarar una variable pot utilitzar-se la paraula reservada **final** per a indicar que el valor de la variable no podrá modificar-se (és una constant).
+
+::: tabs
+== Java
 
 Per exemple, creem variable constant tipus int anomenada x amb valor 18:
 
@@ -145,5 +178,7 @@ Si posteriorment intentem modificar els seus valors es produirà un error i Java
 x = 20; // no permés, produeix error
 pi = 7; // no permés, produeix error
 ```
+
+:::
 
 Per tant una variable precedida de la paraula **final** es converteix en una **constant**. O cosa que és el mateix, per a definir una constant a Java haurem de precedir la seua declaració de la paraula reservada **final**.

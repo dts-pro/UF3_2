@@ -4,11 +4,32 @@
 
 Programa que llig dos números, calcula i mostra el valor de les seues suma, resta, producte i divisió.
 
-### 9.1.1. Diagrama de flux
+```mermaid
+graph TD;
+    A((Inici)):::inici_fi --> B[/Escriure "Dona'm x"/]:::romboide;
+    B --> C[/Llegir x/]:::romboide;
+    C --> D[/Escriure "Dona'm y"/]:::romboide;
+    D --> E[/Llegir y/]:::romboide;
+    E --> F[suma = x + y]:::rectangle;
+    F --> G[resta = x - y]:::rectangle;
+    G --> H[mult = x * y]:::rectangle;
+    H --> I[div = x / y]:::rectangle;
+    I --> J[/Escriure "Suma: " + suma/]:::romboide;
+    J --> K[/Escriure "Resta: " + resta/]:::romboide;
+    K --> L[/Escriure "Multiplicació: " + mult/]:::romboide;
+    L --> M[/Escriure "Divisió: " + div/]:::romboide;
+    M --> N((Fi)):::inici_fi;
 
-![Diagrama de flix - Ex. 1](/uf3/Flux_exemple1.jpg)
+    classDef romboide fill:#188CC4, color:white;
+    classDef rectangle fill:#43BA43, color:white;
+    classDef inici_fi fill:#ccc, color:#000;
+```
 
-### 9.1.2. Codi
+:::: tabs
+=== Java
+
+::: tabs
+== Codi
 
 ```java
 package exemple1;
@@ -48,26 +69,44 @@ public class Exemple1 {
 }
 ```
 
-### 9.1.3. Eixida
+== Eixida
 
 ```
 Dona'm el valor de x: 4
 Dona'm el valor de y: 2
-Suma = 6
-Resta = 2
-Multiplicació = 8
-Divisió = 2
+Suma: 6
+Resta: 2
+Multiplicació: 8
+Divisió: 2
 ```
+
+:::
+::::
 
 ## 9.2. Exemple 2
 
 Programa que llig un número i em diu si és positiu o negatiu. Considerarem el zero com a positiu.
 
-### 9.2.1 Diagrama de flux
+```mermaid
+graph TD
+    A((Inici)):::inici_fi --> B[/Demanem i llegim un número/]:::romboide
+    B --> C{num ≥ 0}:::rombe
+    C -->|Sí| D[/Escriure "Número positivo"/]:::romboide
+    C -->|No| E[/Escriure "Número negatiu"/]:::romboide
+    D --> F((Fi)):::inici_fi
+    E --> F
 
-![Diagrama de flix - Ex. 2](/uf3/Flux_exemple2.jpg)
+    classDef romboide fill:#188CC4,color:white
+    classDef rombe   fill:#A08DB1,color:white
+    classDef rectangle fill:#43BA43,color:white
+    classDef inici_fi fill:#ccc,color:#000
+```
 
-### 9.2.2. Codi
+:::: tabs
+=== Java
+
+::: tabs
+== Codi
 
 ```java
 package exemple2;
@@ -97,18 +136,24 @@ public class Exemple2 {
 }
 ```
 
-### 9.2.3. Eixida
+== Eixida
 
 ```
 Dona'm un número: 10
 Número positiu
 ```
 
-# Més exemples
+:::
+::::
 
-## Exemple 01
+## Més exemples
+
+## Exemple 1
 
 Realitza un programa que demane una hora per teclat i que mostre després bon dia, bona vesprada o bona nit segons l'hora. S'utilitzaran els trams de 6 a 12, de 13 a 20 i de 21 a 5 respectivament. Només es tenen en compte les hores, els minuts no s’han d’introduir per teclat.
+
+::: tabs
+== Java
 
 ```java
 import java.util.Scanner;
@@ -139,7 +184,9 @@ public class UF04Exemple01 {
 }
 ```
 
-## Exemple 02
+:::
+
+## Exemple 2
 
 Escriu un programa que calcule el salari setmanal d'un treballador tenint en compte que les hores ordinàries (40 primeres hores de feina) es paguen a 12 euros l'hora. A partir de l’hora 41, es paguen a 16 euros l’hora.
 
@@ -150,6 +197,9 @@ El salari setmanal que li correspon és: 432 €.
 **Exemple 2**:  
 Introdueix el nombre d'hores setmanals treballades: 40  
 El salari setmanal que li correspon és: 480 €.  
+
+::: tabs
+== Java
 
 ```java
 import java.util.Scanner;
@@ -180,9 +230,14 @@ public class UF04Exemple02 {
 }
 ```
 
-## Exemple 03
+:::
+
+## Exemple 3
 
 Escriu un programa que ordene tres nombres enters introduïts per teclat de menor a major.
+
+::: tabs
+== Java
 
 ```java
 import java.util.Scanner;
@@ -232,9 +287,14 @@ public class UF04Exemple03 {
 }
 ```
 
-## Exemple 04
+:::
+
+## Exemple 4
 
 Escriviu un programa que diga quina és la darrera xifra d'un nombre enter introduït per teclat.
+
+::: tabs
+== Java
 
 ```java
 import java.util.Scanner;
@@ -260,10 +320,15 @@ public class UF04Exemple04 {
 }
 ```
 
-## Exemple 05
+:::
+
+## Exemple 5
 
 Fes un programa que digui si un nombre enter positiu introduït per teclat és capicua. Es 
 permeten números de fins a 5 xifres.
+
+::: tabs
+== Java
 
 ```java
 import java.util.Scanner;
@@ -297,7 +362,7 @@ public class UF04Exemple05 {
                 if (n < 1000) {
                     if ((n / 100) == (n % 10)) {
                         capicua = true;
-                }
+                    }
                 } else {
                     // Número de quatre xifres
                     if (n < 10000) {
@@ -330,3 +395,6 @@ public class UF04Exemple05 {
         entrada.close();
     } 
 }
+```
+
+:::
