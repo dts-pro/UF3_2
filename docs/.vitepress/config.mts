@@ -8,7 +8,8 @@ export default withMermaid({
   title: 'Títol',
   description: 'Descripció',
   base: '/UF3/',
-  outDir: './dist',
+  srcDir: 'src',
+  outDir: '../',
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
@@ -31,7 +32,7 @@ export default withMermaid({
     siteTitle: 'Introducció a Java',
     logo: '/img/logo.png',
     nav: [
-      { text: '🏠 Inici', link: '/' },
+      { text: '🏠 Inici', link: '/index' },
       { text: '📋 Objectius', link: '/objectius' },
       { text: '📚 Continguts', items: [
         { text: '1. Introducció', link: '/1-introduccio' },
