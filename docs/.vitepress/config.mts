@@ -21,10 +21,11 @@ export default withMermaid({
     class: "mermaid my-class", // set additional css classes for parent container 
   },
   head: [
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', rel: 'stylesheet' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
+    ['base', { href: '/UF3/' }]
+    //['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    //['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    //['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', rel: 'stylesheet' }],
+    //['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
     siteTitle: 'Introducció a Java',
