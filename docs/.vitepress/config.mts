@@ -7,7 +7,7 @@ export default withMermaid({
   lang: 'ca-ES',
   title: 'Títol',
   description: 'Descripció',
-  base: '/UF3/',
+  base: '/',
   outDir: './dist',
   markdown: {
     config(md) {
