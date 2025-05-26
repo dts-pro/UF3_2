@@ -9,7 +9,7 @@ export default withMermaid({
   description: 'Descripció',
   base: '/UF3/',
   srcDir: 'src',
-  outDir: '../',
+  outDir: '../docs',
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
