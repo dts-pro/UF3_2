@@ -15,7 +15,7 @@ export default withMermaid({
     }
   },
   mermaid: {
-    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options.
   },
   mermaidPlugin: {
     class: "mermaid my-class", // set additional css classes for parent container 
