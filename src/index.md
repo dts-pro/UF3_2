@@ -1,6 +1,6 @@
 # UF01. Fonaments de Programació
 
-::: tip Informació del curs
+::: tip Informació dels cursos
 **Professors:** Guillermo Garrido Portes / David Tur Sanmateu
 
 **Curs Acadèmic:** 2024-2025
