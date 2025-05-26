@@ -157,7 +157,7 @@ Els mètodes d’aquesta classe no estan declarats com a **estàtics**. És per 
 
 Un constructor ens permetrà instanciar els objectes que utilitzarem d'aquesta classe i té el mateix nom que la classe. Ens podem trobar amb classes que tenen diversos constructors amb el mateix nom, però diferents paràmetres, és a dir, que són per a diferents usos. De moment, ens quedarem amb aquesta idea i ja l'aprofundirem més endavant. En el nostre cas farem servir el primer constructor.
 
-![Instància String](uf3/Instancia_String.jpg)
+![Instància String](/uf3/Instancia_String.jpg)
 
 >***Exemple de la classe String.***
 >
@@ -186,7 +186,7 @@ Com havíem esmentat prèviament tots els mètodes de la classe Math i els mèto
 
 Però que passa si volem fer servir la classe Scanner. Aquesta classe no pertany al paquet per defecte java.lang, de manera que em donarà un error. Per tant, aquí sí que haurem de citar explícitament que volem fer servir un paquet.
 
-![Error falta importar java.util](uf3/Error_import_java_util.jpg)
+![Error falta importar java.util](/uf3/Error_import_java_util.jpg)
 
 Veiem que l'error m'està indicant que cal importar el paquet **java.util** per poder utilitzar aquesta classe. Per tant, la primera instrucció que introduirem a la nostra classe és:
 
@@ -196,23 +196,23 @@ La classe Scanner té una sèrie de mètodes que no són **estàtics** com **nex
 
 Encara que això es veurà detalladament més endavant, per veure quin paquet hem d'importar podem consultar-lo per internet a la web Java API i buscarem la classe **Scanner**. Al principi veurem que ens indica quin paquet es troba, i per tant, aquest serà el que hem d'importar.
 
-![Classe Scanner](uf3/Classe_Scanner.jpg)
+![Classe Scanner](/uf3/Classe_Scanner.jpg)
 
 Igualment, si avancem a la pàgina més endavant ens indica quins són els constructors de la classe que ja em explicat que serveixen per a instanciar els objectes o variables que utilitzarem en aquesta classe.
 
-![Constructor Scanner](uf3/Cosntructor%20Scanner.jpg)
+![Constructor Scanner](/uf3/Cosntructor%20Scanner.jpg)
 
 Igualment, a la pàgina més endavant apareix la llista de mètodes d’aquesta classe.
 
-![Llista de mètodes](uf3/Llista_metodes.jpg)
+![Llista de mètodes](/uf3/Llista_metodes.jpg)
 
 Entre aquests mètodes trobarem els tres mètodes esmentats i com en veiem cap és **static**, la qual cosa implicarà que abans d'utilitzar-los haurem d'haver creat un objecte (o instanciat la classe).
 
-![Mètodes Scanner](uf3/Metodes_Scanner.jpg)
+![Mètodes Scanner](/uf3/Metodes_Scanner.jpg)
 
 Fent clic sobre aquests accedirem a la informació ampliada on comprovarem que no són estàtics.
 
-![Mètode no estàtic](uf3/No_estàtic.jpg)
+![Mètode no estàtic](/uf3/No_estàtic.jpg)
 
 Ara completarem el codi de la classe tal com s'indica a continuació.
 

@@ -38,7 +38,7 @@ Un **projecte** és un conjunt d'arxius font en java que conté informació asso
 
 Quan creem un projecte, el IDE genera de manera automàtica un script Ant per a compilar el projecte, o bé utilitzar un script de Ant que tinguem predefinit. Si accedim a **File -> New Project**, veiem que per defecte el IDE conté un conjunt de plantilles que podem utilitzar en funció del projecte que anem a crear.
 
-![NetBeans - Nou Projecte](uf3/NetBeans_new_project.jpg)
+![NetBeans - Nou Projecte](/uf3/NetBeans_new_project.jpg)
 
 Projectes estàndard (El IDE genera un script Ant per a compilar):
 
@@ -57,21 +57,21 @@ Una vegada seleccionada la plantilla fem clic en Next i emplenem el nom del proj
 
 Per al nostre exemple posarem com a nom **Ejemplo1**. Guardarem el projecte en una carpeta del nostre sistema, seleccionant aquesta carpeta en la segona caixa de text.
 
-![NetBeans - Nova Aplicació Java](uf3/NetBeans_new_java_application.jpg)
+![NetBeans - Nova Aplicació Java](/uf3/NetBeans_new_java_application.jpg)
 
 Una vegada hem creat el projecte, en la part esquerra podem veure tres pestanyes: la del projecte (Projects), la dels arxius (Files) i la de Serveis (Services).
 
 La pestanya de projectes és el punt principal d'entrada als fitxers fonts del projecte. Mostra una vista lògica de l'estructura del projecte quant a paquets i fitxers que el componen. Mitjançant el botó de la dreta del ratolí i tenint seleccionat el nom del projecte (en el nostre cas Ejemplo1), podem accedir al menú contextual per a modificar les opcions de compilació, debugger i execució del projecte.
 
-![NetBeans - Pestanya Projectes](uf3/NetBeans_projects.jpg)
+![NetBeans - Pestanya Projectes](/uf3/NetBeans_projects.jpg)
 
 La pestanya de fitxers mostra la vista de fitxers basada en una estructura de directoris, incloent fitxers i carpetes que no es mostren en la finestra de projectes. Des d'ací podem editar, modificar tant fitxers fonts del projecte com scripts de compilació (Ant). Podem accedir al projecte compilat i paquetitzat en fitxers JAR, WAR, etc.
 
-![NetBeans - Pestanya Arxius](uf3/NetBeans_files.jpg)
+![NetBeans - Pestanya Arxius](/uf3/NetBeans_files.jpg)
 
 En la pestanya de serveis trobem els diferents serveis dels quals podem fer ús des de la nostra aplicació, com la connexió a bases de dades o a un servidor web.
 
-![NetBeans - Pestanya Serveis](uf3/NetBeans_services.jpg)
+![NetBeans - Pestanya Serveis](/uf3/NetBeans_services.jpg)
 
 ## 3.3 Creació de fitxers
 
@@ -79,15 +79,15 @@ Quan creem un projecte es crea automàticament un fitxer, en aquest cas Ejemplo1
 
 En el nostre cas accedim al projecte **Ejemplo1** i amb el botó de la dreta accedim al menú New. Depenent de la mena de plantilla seleccionat ens apareixerà un assistent que ens indicarà els passos necessaris per a acabar la creació de la plantilla, seleccionem **Java Class**…
 
-![NetBeans - Nova Classe Java (1)](uf3/NetBeans_new_javaClass_1.jpg)
+![NetBeans - Nova Classe Java (1)](/uf3/NetBeans_new_javaClass_1.jpg)
 
 Emplenem el nom de la classe i el nom del package **ejemplo1**.
 
-![NetBeans - Nova Classe Java (2)](uf3/NetBeans_new_javaClass_2.jpg)
+![NetBeans - Nova Classe Java (2)](/uf3/NetBeans_new_javaClass_2.jpg)
 
 Així tindrem el nostre nou fitxer.
 
-![NetBeans - Nou arxiu](uf3/NetBeans_new_file.jpg)
+![NetBeans - Nou arxiu](/uf3/NetBeans_new_file.jpg)
 
 ## 4. Compilació i execució d'aplicacions
 
@@ -100,20 +100,20 @@ Per a compilar un projecte, paquet o arxiu, ens situem en la finestra de project
 - En el menú principal, fem clic en **Run → Build Project (F11)**, per a compilar el projecte.
 - En el menú principal, fem clic en **Run → Clean and Build Project (Shift + F11)**, per a netejar i compilar el projecte.
 
-![NetBeans - Compilar Projecte](uf3/NetBeans_build_project.jpg)
+![NetBeans - Compilar Projecte](/uf3/NetBeans_build_project.jpg)
 
 - En la finestra de projectes botó de la dreta sobre el nom del projecte **Build Project**, per a compilar el projecte.
 - En la finestra de projectes botó de la dreta sobre el nom del projecte **Clean and Build Project**, per a eliminar els arxius objecte i compilar el projecte.
 - En la finestra de projectes botó de la dreta sobre el nom del projecte **Clean**, per a eliminar els arxius objecte del projecte.
 
-![NetBeans - Compilar Projecte](uf3/NetBeans_CleanAndBuild.jpg)
+![NetBeans - Compilar Projecte](/uf3/NetBeans_CleanAndBuild.jpg)
 
 També es poden utilitzar els botons de la barra d'eines:
-![NetBeans - Compilar Projecte - Barra d'Eines](uf3/NetBeans_CleanAndBuild_taskBar.jpg)
+![NetBeans - Compilar Projecte - Barra d'Eines](/uf3/NetBeans_CleanAndBuild_taskBar.jpg)
 
 Seguint el nostre exemple provem de compilar el projecte principal Ejemplo1. L'eixida seria la següent:
 
-![NetBeans - Eixida](uf3/NetBeans_Output.jpg)
+![NetBeans - Eixida](/uf3/NetBeans_Output.jpg)
 
 Qualsevol error que hi haja en compilació apareix en la finestra d'eixida Output (Ctrl. + 4). La finestra d'eixida és una finestra multi-tabulada que mostra tots els missatges que hi haja hagut en la compilació. El missatge d'error apareix subratllat en blau i és un enllaç a la línia de codi que ha causat aquest error.
 
@@ -122,15 +122,15 @@ Qualsevol error que hi haja en compilació apareix en la finestra d'eixida Outpu
 Per a executar una aplicació podem:
 
 - Fer clic en **Run → Run Main Project (F6)**
-![NetBeans - Execusió](uf3/NetBeans_run.jpg)
+![NetBeans - Execusió](/uf3/NetBeans_run.jpg)
 
 - Fer clic en les iconas de la barra d'eines:
-![NetBeans - Execusió - Barra d'Eines](uf3/NetBeans_run_taskBar.jpg)
+![NetBeans - Execusió - Barra d'Eines](/uf3/NetBeans_run_taskBar.jpg)
 - Fer clic amb el botó dret sobre el seu node del projecte en la finestra dels projectes i elegir Run Project:
-![NetBeans - Execusió Projecte](uf3/NetBeans_runProject.jpg)
+![NetBeans - Execusió Projecte](/uf3/NetBeans_runProject.jpg)
 
 Si modifiquem el nostre fitxer java i inserim una línia per a mostrar per pantalla el missatge “El meu primer programa”.
-![NetBeans - Primer Programa](uf3/NetBeans_primer_programa.jpg)
+![NetBeans - Primer Programa](/uf3/NetBeans_primer_programa.jpg)
 
 Compilem i executem, l'eixida seria la següent:
-![NetBeans - Eixeda Primer Programa](uf3/NetBeans_eixida_primer_programa.jpg)
+![NetBeans - Eixeda Primer Programa](/uf3/NetBeans_eixida_primer_programa.jpg)
