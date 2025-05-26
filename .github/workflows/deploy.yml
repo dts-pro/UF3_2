@@ -10,45 +10,39 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
+      # 1. Recuperem el codi
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2. Preparem Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
+      # 3. Instal·lem deps i fem build
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build VitePress site
         run: npm run docs:build
 
-      - name: Upload Pages Artifact
+      # 4. Configurem GitHub Pages
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      # 5. Pugem l’artefacte amb els fitxers estàtics
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
-          name: vitepress-pages-artifact    # ← nom únic per a l’artefacte
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
+      # 6. Despleguem a GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: vitepress-pages-artifact  # ← mateix nom aquí
