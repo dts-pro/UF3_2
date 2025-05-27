@@ -30,7 +30,7 @@ export default withMermaid({
   ],
   themeConfig: {
     siteTitle: 'Introducció a Java',
-    logo: '/img/logo.png',
+    logo: '/img/logo-gva.png',
     nav: [
       { text: '🏠 Inici', link: '/index' },
       { text: '📋 Objectius', link: '/objectius' },
