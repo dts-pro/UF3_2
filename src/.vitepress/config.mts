@@ -30,7 +30,7 @@ export default withMermaid({
   ],
   themeConfig: {
     siteTitle: 'Introducció a Java',
-    logo: '/img/logo-gva.png',
+    logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/index' },
       { text: '📋 Objectius', link: '/objectius' },
@@ -72,8 +72,8 @@ export default withMermaid({
         { text: 'Les classes Math, String i Scanner', link: '/11-add_intro' },
         { text: 'Operador condicional', link: '/12-operador_cond' },
         { text: 'Guia de NetBeans', link: '/13-guia_netbeans' },
-        { text: '<img src="/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-        { text: '<img src="/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+        { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+        { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
       ]}
     ],
     socialLinks: [
