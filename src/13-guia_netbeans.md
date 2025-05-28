@@ -8,29 +8,29 @@ La plataforma NetBeans, a més, permet que les aplicacions siguen desenvolupades
 
 NetBeans IDE suporta el desenvolupament de tots els tipus d'aplicació Java (J2SE, web, EJB i aplicacions mòbils). Entre les seues **característiques** es troba un **sistema de projectes basat en Ant, control de versions i refactoring**.
 
-# 2. Instal·lació
+## 2. Instal·lació
 
 Per a aquest mòdul és necessari tindre instal·lada la JDK (Java Development Toolkit) i l'entorn de desenvolupament NetBeans. És suficient amb tindre, en tots dos casos, almenys la versió 8. Qualsevol altra versió posterior també servirà.
 
 Si ja ho tens instal·lat d'altres anys o per estar cursant el mòdul d'Entorns de Desenvolupament, pots saltar-te aquest apartat i anar directament a l'apartat 3.
 
-## 2.1. Descàrrega de JDK i Netbeans IDE
+## 2.1. Descàrrega de JDK i NetBeans IDE
 
 Si no tens JDK ni NetBeans t'aconsellem que seguisques el següent enllaç de Oracle en el qual podràs descarregar un instal·lador que et permet instal·lar l'última versió de tots dos fàcilment:
 
 JDK: https://www.oracle.com/java/technologies/downloads/
 
-NetBeans: https://netbeans.apache.org/front/main/download/nb23/
+NetBeans: https://NetBeans.apache.org/front/main/download/
 
 Una vegada en la pàgina haurem d'acceptar la llicència i triar la descarga del sistema operatiu que estiguem utilitzant.
 
-## 2.2 Instal·lació de JDK i Netbeans IDE
+## 2.2 Instal·lació de JDK i NetBeans IDE
 
 Una vegada descarregat el paquet, la instal·lació és molt senzilla, simplement hem de seguir els passos de l'instal·lador. Instal·lant primer el JDK i després el NetBeans.
 
 Revisa quina versió de JDK necessitaràs per a fer funcionar la versió de NetBeans que t’instal·les en l’apartat “Deployment Platforms” de la finestra de descarrega del NetBeans.
 
-# 3. Creació de projectes
+## 3. Creació de projectes
 
 ## 3.1 Conceptes bàsics
 

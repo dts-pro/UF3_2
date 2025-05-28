@@ -105,7 +105,9 @@ I acabarem completant la instrucció amb els paràmetres `base` i `exponent`.
 
 El nostre programa complet serà:
 
-::: details Codi
+::: tabs Codi
+
+== Java
 
 ```java
 public class UF04ExempleClasseMath {
@@ -143,7 +145,7 @@ Com ja hem comentat, per a la gestió de les dades de tipus caràcter a Java no 
 
 Per a la definició de variables ho farem com ho fèiem amb els tipus de dades primitives.
 
-`String text=”Primer text”`
+`String text="Primer text"`
 
 En aquest cas, text és una variable objecte o instància de la classe **String**.
 
@@ -159,9 +161,11 @@ Un constructor ens permetrà instanciar els objectes que utilitzarem d'aquesta c
 
 ![Instància String](/uf3/Instancia_String.jpg)
 
->***Exemple de la classe String.***
+>***Exemple de la classe String:***
 >
->::: details Codi
+>::: tabs Codi
+>
+>== Java
 >
 >```java
 >public class UF04ExempleClasseString {
@@ -219,7 +223,9 @@ Ara completarem el codi de la classe tal com s'indica a continuació.
 Com veiem, primer instància la classe Scanner creant l’objecte “entrada” que utilitzarà a continuació per utilitzar els mètodes de la classe. Igualment, el resultat de la lectura s'emmagatzemarà en variables que cal definir amb el tipus de dades que corresponga.
 
 >***Exemple:*** llegir text del teclat.
->::: details Codi
+>::: tabs Codi
+>
+>== Java
 >
 >```java
 >public class UF04ExempleClasseScanner1 {
@@ -253,7 +259,10 @@ Com veiem, primer instància la classe Scanner creant l’objecte “entrada” 
 Veiem un altre exemple.
 
 >***Exemple:*** llegir un sencer del teclat i comprovar que és correcte.
->::: details Codi
+>::: tabs Codi
+>
+>== Java
+>
 >```java
 >public class UF04ExempleClasseScanner2 {
 > 
