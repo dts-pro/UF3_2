@@ -8,10 +8,7 @@ export default withMermaid({
   title: 'UF3',
   description: 'Descripció',
   base: '/UF3/',
-<<<<<<< HEAD
   //srcDir: 'src',
-=======
->>>>>>> 6f67a51969ad710574b27859d593bb0edefb6e95
   outDir: '../docs',
   markdown: {
     config(md) {
