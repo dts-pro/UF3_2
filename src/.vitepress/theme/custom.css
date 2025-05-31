@@ -145,7 +145,7 @@
 /* Lista de contenidos */
 .vp-doc ul, ol {
   list-style: square;
-  margin-left: 2em;
+  margin-left: 1em;
   padding-left: 1rem;
 }
 
@@ -216,14 +216,15 @@
 */
 /* Mejoras en las listas */
 .vp-doc .details ul {
-  margin: 0;
-  padding-left: 0;
+  list-style-type: none;
+  padding-left: 0rem;
 }
 
 .vp-doc .details li {
   list-style: symbols();
   padding-left: 1rem;
 }
+
 /*
 .vp-doc .details li:hover {
   transform: translateX(10px);
