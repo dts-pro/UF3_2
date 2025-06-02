@@ -19,12 +19,12 @@ valor = expresin_2;
 |--------|----------|-------------------|---------------------|
 |?|operador condicional|a = 4; <br> b = a == 4 ? a+5 : 6-a; <br> b = a > 4 ? a*7 : a + 8; | <br> b val 9 <br> b val 12 |
 
->***Exemple:***
->::: details Codi
+>***Exemple amb operador condicional:***
+>::: tabs Codi
+>
+>== Java
+>
 >```java
->/* 
->* Demostració de l’ operador condicional
->*/
 >public class UF04OperadorCondicional {
 >    public static void main(String[] args) {
 >
