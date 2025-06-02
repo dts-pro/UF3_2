@@ -63,3 +63,18 @@ a content 2
 == tab b
 b content 2
 :::
+
+<div class="container">
+  <div class="cursor-box pointer">Pointer</div>
+  <div class="cursor-box pointer">Help</div>
+  <div class="cursor-box pointer">Wait</div>
+  <div class="cursor-box pointer">Crosshair</div>
+  <div class="cursor-box pointer">Text</div>
+  <div class="cursor-box pointer">Not Allowed</div>
+  <div class="cursor-box pointer">Grab</div>
+  <div class="cursor-box pointer">Zoom In</div>
+  <div class="cursor-box pointer">Cell</div>
+  <div class="cursor-box pointer">Copy</div>
+  <div class="cursor-box pointer">Move</div>
+  <div class="cursor-box pointer">Alias</div>
+</div>
