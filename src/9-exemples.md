@@ -150,7 +150,7 @@ Número positiu
 
 ## Exemple 1
 
-Realitza un programa que demane una hora per teclat i que mostre després bon dia, bona vesprada o bona nit segons l'hora. S'utilitzaran els trams de 6 a 12, de 13 a 20 i de 21 a 5 respectivament. Només es tenen en compte les hores, els minuts no s’han d’introduir per teclat.
+Realitza un programa que demane una hora per teclat i que mostre després bon dia, bona vesprada o bona nit segons l'hora. S'utilitzaran els trams de 6 a 12, de 13 a 20 i de 21 a 5 respectivament. Només es tenen en compte les hores, els minuts no s'han d'introduir per teclat.
 
 ::: tabs
 == Java
@@ -188,7 +188,7 @@ public class UF04Exemple01 {
 
 ## Exemple 2
 
-Escriu un programa que calcule el salari setmanal d'un treballador tenint en compte que les hores ordinàries (40 primeres hores de feina) es paguen a 12 euros l'hora. A partir de l’hora 41, es paguen a 16 euros l’hora.
+Escriu un programa que calcule el salari setmanal d'un treballador tenint en compte que les hores ordinàries (40 primeres hores de feina) es paguen a 12 euros l'hora. A partir de l'hora 41, es paguen a 16 euros l'hora.
 
 **Exemple 1**:  
 Introdueix el nombre d'hores setmanals treballades: 36  

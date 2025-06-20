@@ -1,10 +1,10 @@
 # 1. Introducció
 
-***NetBeans*** és un **entorn de desenvolupament integrat (IDE - “Integrated Development Environment”)** lliure, desenvolupat principalment per al llenguatge de programació Java. Existeix a més un nombre important de mòduls per a estendre'l. 
+***NetBeans*** és un **entorn de desenvolupament integrat (IDE - "Integrated Development Environment")** lliure, desenvolupat principalment per al llenguatge de programació Java. Existeix a més un nombre important de mòduls per a estendre'l. 
 
 És important destacar que és un **projecte de codi obert** de gran èxit, amb una gran base d'usuaris, una comunitat en constant creixement, i amb prop de 100 socis a tot el món. 
 
-La plataforma NetBeans, a més, permet que les aplicacions siguen desenvolupades a partir d'un conjunt de components de programari anomenat mòduls. Un **mòdul** és un arxiu Java que conté classes de java escrites per a interactuar amb les APIs de NetBeans (API - “Interfície de Programació d'Aplicacions”, https://www.xataka.com/basics/api-que-sirve) i un arxiu especial (manifest file) que l'identifica com a mòdul. Les aplicacions construïdes a partir de mòduls poden ser esteses agregant-li nous mòduls. Pel fet que els mòduls poden ser desenvolupats independentment, les aplicacions basades en la plataforma NetBeans poden ser esteses fàcilment per altres desenvolupadors de programari. 
+La plataforma NetBeans, a més, permet que les aplicacions siguen desenvolupades a partir d'un conjunt de components de programari anomenat mòduls. Un **mòdul** és un arxiu Java que conté classes de java escrites per a interactuar amb les APIs de NetBeans (API - "Interfície de Programació d'Aplicacions", https://www.xataka.com/basics/api-que-sirve) i un arxiu especial (manifest file) que l'identifica com a mòdul. Les aplicacions construïdes a partir de mòduls poden ser esteses agregant-li nous mòduls. Pel fet que els mòduls poden ser desenvolupats independentment, les aplicacions basades en la plataforma NetBeans poden ser esteses fàcilment per altres desenvolupadors de programari. 
 
 NetBeans IDE suporta el desenvolupament de tots els tipus d'aplicació Java (J2SE, web, EJB i aplicacions mòbils). Entre les seues **característiques** es troba un **sistema de projectes basat en Ant, control de versions i refactoring**.
 
@@ -28,7 +28,7 @@ Una vegada en la pàgina haurem d'acceptar la llicència i triar la descarga del
 
 Una vegada descarregat el paquet, la instal·lació és molt senzilla, simplement hem de seguir els passos de l'instal·lador. Instal·lant primer el JDK i després el NetBeans.
 
-Revisa quina versió de JDK necessitaràs per a fer funcionar la versió de NetBeans que t’instal·les en l’apartat “Deployment Platforms” de la finestra de descarrega del NetBeans.
+Revisa quina versió de JDK necessitaràs per a fer funcionar la versió de NetBeans que t'instal·les en l'apartat "Deployment Platforms" de la finestra de descarrega del NetBeans.
 
 ## 3. Creació de projectes
 
@@ -129,7 +129,7 @@ Per a executar una aplicació podem:
 - Fer clic amb el botó dret sobre el seu node del projecte en la finestra dels projectes i elegir Run Project:
 ![NetBeans - Execusió Projecte](/uf3/NetBeans_runProject.jpg)
 
-Si modifiquem el nostre fitxer java i inserim una línia per a mostrar per pantalla el missatge “El meu primer programa”.
+Si modifiquem el nostre fitxer java i inserim una línia per a mostrar per pantalla el missatge "El meu primer programa".
 ![NetBeans - Primer Programa](/uf3/NetBeans_primer_programa.jpg)
 
 Compilem i executem, l'eixida seria la següent:

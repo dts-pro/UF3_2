@@ -1,6 +1,6 @@
 # 6. Literals
 
-A l'hora de tractar amb valors dels tipus de dades simples (i de tipus Strings) s'utilitza el que es denomina “literals”. Els literals són elements que serveixen per a representar un valor en el codi font del programa. A Java existeixen literals per als següents tipus de dades:
+A l'hora de tractar amb valors dels tipus de dades simples (i de tipus Strings) s'utilitza el que es denomina "literals". Els literals són elements que serveixen per a representar un valor en el codi font del programa. A Java existeixen literals per als següents tipus de dades:
 
 - Lògics (boolean)
 - Caràcter (char)
@@ -54,8 +54,8 @@ Igual que els literals que representen sencers, es pot posar una lletra com a su
 
 Els literals de tipus caràcter es representen sempre entre cometes simples. Entre les cometes simples pot aparéixer:
 
-- Un **símbol** (lletra) sempre que el caràcter estiga associat a un codi Unicode. Exemples: ‘a’ , ‘B’ , ‘{‘ , ‘ñ’ , ‘á’ .
-- Una “**seqüència de fuita**”. Les seqüències de fuita són combinacions del símbol
+- Un **símbol** (lletra) sempre que el caràcter estiga associat a un codi Unicode. Exemples: ‘a' , ‘B' , ‘{‘ , ‘ñ' , ‘á' .
+- Una "**seqüència de fuita**". Les seqüències de fuita són combinacions del símbol
 contrabarra \ seguit d'una lletra, i serveixen per a representar caràcters que no tenen una
 equivalència en forma de símbol. Les possibles seqüències de fuita són:
 
@@ -79,7 +79,7 @@ Per exemple:
 
 Els Strings o cadenes de caràcters no formen part dels tipus de dades elementals a Java, sinó que són instanciats a partir de la classe java.lang.String, però accepten la seua inicialització a partir de literals d'aquest tipus, per la qual cosa es tracten en aquest punt.
 
-Un literal de tipus String va tancat entre cometes dobles ( “ ) i ha d'estar inclòs completament en una sola línia del programa font (no pot dividir-se en diverses línies).
+Un literal de tipus String va tancat entre cometes dobles ( " ) i ha d'estar inclòs completament en una sola línia del programa font (no pot dividir-se en diverses línies).
 
 Entre les cometes dobles pot incloure's qualsevol caràcter del codi Unicode (o el seu codi precedit del caràcter \ ) a més de les seqüències de fuita vistes anteriorment en els literals de tipus caràcter.
 
@@ -89,8 +89,8 @@ Així, per exemple, per a incloure un canvi de línia dins d'un literal de tipus
 == Java
 
 ```java
-System.out.println(”Primera línia\nSegona línia del string\n”); 
-System.out.println(”Hola”);
+System.out.println("Primera línia\nSegona línia del string\n"); 
+System.out.println("Hola");
 ```
 
 :::
@@ -100,7 +100,7 @@ La visualització del string anterior mitjançant println() produiria la següen
 ::: tabs
 == Java
 
-```
+```text
 Primera línia
 Segona línia del string
 
@@ -113,7 +113,7 @@ La manera d'incloure els caràcters 'cometes dobles' `"` i 'contrabarra' `\` és
 
 Si el String és massa llarg i ha de dividir-se en diverses línies en el fitxer font, pot utilitzar-se l'operador de concatenació de Strings `+` de la següent forma:
 
-```
+```text
 "Aquest String és massa llarg per a estar en una línia del"
 + "fitxer font i s'ha dividit en dues."
 ```

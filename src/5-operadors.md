@@ -32,7 +32,7 @@ Els operadors ++ i -- admeten notació postfixa i prefixa:
 op1.
 - **op1--**: Primer s'executa la instrucció en la qual està immers i després es decrementa
 op1.
-- **++op1**: Primer s’increment a op1 i després executa la instrucció en la qual està immers.
+- **++op1**: Primer s'increment a op1 i després executa la instrucció en la qual està immers.
 - **--op1**: Primer se decrementa op1 i després executa la instrucció en la qual està
 immers.
 

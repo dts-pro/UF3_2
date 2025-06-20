@@ -55,7 +55,7 @@ public static void main(String[] args)
 Aquesta línia especifica un mètode que l'intèrpret Java busca per a executar en primer lloc. Igual que en altres llenguatges, Java utilitza una paraula clau main per a especificar la primera funció a executar. En aquest exemple tan simple no es passen arguments.
 
 - **public** significa que el mètode main() pot ser cridat per qualsevol, incloent l'intèrpret Java.
-- **static** és una paraula clau que li diu al compilador que main es refereix a la pròpia classe HolaMundo i no a cap instància de la classe. D'aquesta manera, si algú intenta fer una altra instància de la classe, el mètode main() no s’instanciaria.
+- **static** és una paraula clau que li diu al compilador que main es refereix a la pròpia classe HolaMundo i no a cap instància de la classe. D'aquesta manera, si algú intenta fer una altra instància de la classe, el mètode main() no s'instanciaria.
 - **void** indica que main() no retorna res. Això és important ja que Java realitza una estricta comprovació de tipus, incloent els tipus que s'ha declarat que retornen els mètodes.
 - **args[]** és la declaració d'un array de Strings. Aquests són els arguments escrits després del nom de la classe en la línia de comandos: java HolaMundo arg1 arg2.
 

@@ -97,7 +97,7 @@ Si una variable no ha sigut inicialitzada, Java li assigna un valor per defecte.
 Aquest valor és:
 
 - Per a les variables de tipus numèric, el valor per defecte és zero ( 0 ),.
-- Les variables de tipus char, el valor ‘\u0000’.
+- Les variables de tipus char, el valor ‘\u0000'.
 - Les variables de tipus booleà, el valor false.
 - Per a les variables de tipus referencial (objectes), el valor null.
 
@@ -129,11 +129,11 @@ en posteriors unitats.
 
 ### 4.3.1. Variables locals
 
-Una **variable local** es declara dins del cos d'un mètode d'una classe i és **visible únicament dins d’aquest mètode**.
+Una **variable local** es declara dins del cos d'un mètode d'una classe i és **visible únicament dins d'aquest mètode**.
 
 Es pot declarar en qualsevol lloc del cos, fins i tot després d'instruccions executables, encara que és un **bon costum declarar-les just al principi**.
 
-També poden declarar-se variables dins d'un bloc amb claus {...}. En aqueix cas, només seran “visibles” dins d'aquest bloc.
+També poden declarar-se variables dins d'un bloc amb claus {...}. En aqueix cas, només seran "visibles" dins d'aquest bloc.
 
 **Per exemple** (no és necessari entendre el que fa el programa):
 

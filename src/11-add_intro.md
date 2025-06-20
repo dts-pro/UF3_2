@@ -6,7 +6,7 @@ Les classes a Java poden ser de dos tipus: classes pròpies (són les que creem 
 
 Hi ha centenars de classes i cadascuna amb una gran diversitat de mètodes. És tan àmplia la xifra que no es poden saber totes de memòria i encara menys la seva sintaxi. És per això que a Java existeix el que s'anomena Biblioteca de Classes o API de Java, que no és ni més ni menys que una biblioteca on vénen relacionades totes les classes de Java i els seus mètodes.
 
-Amb freqüència accedirem a aquesta biblioteca per fer consultes. Per això realitzarem una cerca des de qualsevol navegador amb el text “Java API”. Que ens portarà al següent enllaç.
+Amb freqüència accedirem a aquesta biblioteca per fer consultes. Per això realitzarem una cerca des de qualsevol navegador amb el text "Java API". Que ens portarà al següent enllaç.
 
 https://docs.oracle.com/javase/8/docs/api/
 
@@ -54,11 +54,11 @@ En el moment en què teclegem el **punt** `.`. veiem que apareix una finestra d'
 
 ![Math + punt](/uf3/Math_punt.jpg)
 
-Si continuem teclejant la paraula “sq” veurem que a mesura que escrivim cada lletra l'ajuda es va concretant fins arribar finalment al mètode que ens interessa que és “sqrt” o arrel quadrada.
+Si continuem teclejant la paraula "sq" veurem que a mesura que escrivim cada lletra l'ajuda es va concretant fins arribar finalment al mètode que ens interessa que és "sqrt" o arrel quadrada.
 
 ![Math + sq](/uf3/Math_sq.jpg)
 
-Un altre aspecte molt important d'aquesta ajuda és que ja ens indica tant el tipus de dada en què els paràmetres han d'estar definits (en l'exemple indica que un hipotètic nom de paràmetre “a” ha d'estar definit com a **double**), així com el tipus de dada en què ha d'estar definida la variable destinació (en el nostre cas la variable “arrel” hauria d'haver estat definida com a **double** i no com a **int**, però vegem que passa si cometem aquest error).
+Un altre aspecte molt important d'aquesta ajuda és que ja ens indica tant el tipus de dada en què els paràmetres han d'estar definits (en l'exemple indica que un hipotètic nom de paràmetre "a" ha d'estar definit com a **double**), així com el tipus de dada en què ha d'estar definida la variable destinació (en el nostre cas la variable "arrel" hauria d'haver estat definida com a **double** i no com a **int**, però vegem que passa si cometem aquest error).
 
 Tornem a l'editor i continuem completant la nostra instrucció. Veurem com l'editor mostra que hem comès un error.
 
@@ -78,7 +78,7 @@ Ara passem a treballar amb el mètode **round** de la classe **Math**. Per això
 
 `float numero1=7.5793F;`
 
-Ara començarem a escriure la instrucció per a l’arrodoniment fins que ens aparegui 
+Ara començarem a escriure la instrucció per a l'arrodoniment fins que ens aparegui 
 l'ajuda:
 
 `int resultat1=Math.ro`
@@ -113,13 +113,13 @@ El nostre programa complet serà:
 public class UF04ExempleClasseMath {
     public static void main(String[] args) {
 
-        // Càlculs amb el mètode d’ arrel quadrada
+        // Càlculs amb el mètode d' arrel quadrada
         int arrel=(int) Math.sqrt(25);
         double arrelD= Math.sqrt(25);
         System.out.println(arrel);
         System.out.println(arrelD);
 
-        // Càlculs amb el mètode d’arrodoniment
+        // Càlculs amb el mètode d'arrodoniment
         float numero1=7.579F;
         int resultat1=Math.round(numero1);
         double numero2=7.4793;
@@ -127,7 +127,7 @@ public class UF04ExempleClasseMath {
         System.out.println(resultat1);
         System.out.println(resultat2);
 
-        // Càlculs amb el mètode d’elevar a un exponent
+        // Càlculs amb el mètode d'elevar a un exponent
         double base=10;
         double exponent=5;
         double resultat3=Math.pow(base,exponent);
@@ -149,13 +149,13 @@ Per a la definició de variables ho farem com ho fèiem amb els tipus de dades p
 
 En aquest cas, text és una variable objecte o instància de la classe **String**.
 
-String, com a classe que és, té els seus mètodes. Així, el mètode **lenght()** ens permet saber la longitud d’una cadena de caràcters, **charAt()** ens permet saber la posició d’un caràcter en una cadena, o **substring()** permet extreure una subcadena d’una cadena a partir d’una posició i un nombre de caràcters a extreure o **equals()** ens diu si dues cadenes són iguals o no.
+String, com a classe que és, té els seus mètodes. Així, el mètode **lenght()** ens permet saber la longitud d'una cadena de caràcters, **charAt()** ens permet saber la posició d'un caràcter en una cadena, o **substring()** permet extreure una subcadena d'una cadena a partir d'una posició i un nombre de caràcters a extreure o **equals()** ens diu si dues cadenes són iguals o no.
 
 ::: info Nota:
 Cal tenir en compte que la primera posició d'una cadena no és la 1 sinó la 0.
 :::
 
-Els mètodes d’aquesta classe no estan declarats com a **estàtics**. És per això que per a utilitzar-los necessitarem **instanciar una variable de tipus String** mitjançant un **constructor**.
+Els mètodes d'aquesta classe no estan declarats com a **estàtics**. És per això que per a utilitzar-los necessitarem **instanciar una variable de tipus String** mitjançant un **constructor**.
 
 Un constructor ens permetrà instanciar els objectes que utilitzarem d'aquesta classe i té el mateix nom que la classe. Ens podem trobar amb classes que tenen diversos constructors amb el mateix nom, però diferents paràmetres, és a dir, que són per a diferents usos. De moment, ens quedarem amb aquesta idea i ja l'aprofundirem més endavant. En el nostre cas farem servir el primer constructor.
 
@@ -176,7 +176,7 @@ Un constructor ens permetrà instanciar els objectes que utilitzarem d'aquesta c
 >        System.out.println("El que diu Descartes té una longitud de " + descartes.length() + " lletres");
 >        System.out.println("El que diu Descartes comença per la lletra " + descartes.charAt(0));
 >        int ultimaLletra=descartes.length();
->        System.out.println("L’última lletra es " + descartes.charAt(ultimaLletra-1));
+>        System.out.println("L'última lletra es " + descartes.charAt(ultimaLletra-1));
 >        System.out.println(descartes.substring(0, 16));
 >    }
 >}
@@ -206,7 +206,7 @@ Igualment, si avancem a la pàgina més endavant ens indica quins són els const
 
 ![Constructor Scanner](/uf3/Cosntructor%20Scanner.jpg)
 
-Igualment, a la pàgina més endavant apareix la llista de mètodes d’aquesta classe.
+Igualment, a la pàgina més endavant apareix la llista de mètodes d'aquesta classe.
 
 ![Llista de mètodes](/uf3/Llista_metodes.jpg)
 
@@ -220,7 +220,7 @@ Fent clic sobre aquests accedirem a la informació ampliada on comprovarem que n
 
 Ara completarem el codi de la classe tal com s'indica a continuació.
 
-Com veiem, primer instància la classe Scanner creant l’objecte “entrada” que utilitzarà a continuació per utilitzar els mètodes de la classe. Igualment, el resultat de la lectura s'emmagatzemarà en variables que cal definir amb el tipus de dades que corresponga.
+Com veiem, primer instància la classe Scanner creant l'objecte "entrada" que utilitzarà a continuació per utilitzar els mètodes de la classe. Igualment, el resultat de la lectura s'emmagatzemarà en variables que cal definir amb el tipus de dades que corresponga.
 
 >***Exemple:*** llegir text del teclat.
 >::: tabs Codi
@@ -286,7 +286,7 @@ Veiem un altre exemple.
 >```
 >:::
 
-El mètode de la classe Scanner vinculat a la lectura d’una cadena de text composta **d’una única paraula** és **next()**.
+El mètode de la classe Scanner vinculat a la lectura d'una cadena de text composta **d'una única paraula** és **next()**.
 
 Recordeu que, si en una mateixa línia escrius més d'una paraula, successives invocacions a aquest mètode no bloquejaran el programa, sinó que aniran avaluant les successives dades pendents de llegir.
 

@@ -197,7 +197,7 @@ switch (selector) {
 }
 ```
 
-En aquest `switch`, el valor del **selector** es compara amb cada etiqueta **'case'**. Quan coincideix amb un **valor**, s’executen les accions corresponents fins al `break`, que fa que el flux isca del `switch`. Si cap 'case' coincideix, s’executa el bloc **default**.
+En aquest `switch`, el valor del **selector** es compara amb cada etiqueta **'case'**. Quan coincideix amb un **valor**, s'executen les accions corresponents fins al `break`, que fa que el flux isca del `switch`. Si cap 'case' coincideix, s'executa el bloc **default**.
 
 ```java
 switch (diaSetmana) {
@@ -212,7 +212,7 @@ switch (diaSetmana) {
 }
 ```
 
-En aquest exemple, segons el contingut de la variable `diaSetmana`, s’imprimeix un missatge diferent. El `break` impedeix que es continuï en els següents casos (fall-through).
+En aquest exemple, segons el contingut de la variable `diaSetmana`, s'imprimeix un missatge diferent. El `break` impedeix que es continuï en els següents casos (fall-through).
 
 :::
 

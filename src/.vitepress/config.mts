@@ -15,13 +15,12 @@ export default withMermaid({
     }
   },
   mermaid: {
-    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options.
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
   },
   mermaidPlugin: {
     class: "mermaid my-class", // set additional css classes for parent container 
   },
   head: [
-    ['link', { rel: 'icon', href: 'img/logo.png' }],
     //['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     //['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     //['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', rel: 'stylesheet' }],
@@ -31,7 +30,7 @@ export default withMermaid({
     siteTitle: 'Introducció a Java',
     logo: '/img/logo.png',
     nav: [
-      { text: '🏠 Inici', link: '/index' },
+      { text: '🏠 Inici', link: '/' },
       { text: '📋 Objectius', link: '/objectius' },
       { text: '📚 Continguts', items: [
         { text: '1. Introducció', link: '/1-introduccio' },

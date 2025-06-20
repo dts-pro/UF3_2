@@ -4,8 +4,8 @@
 
 Ja hem vist l'ús de System.out per a mostrar informació per pantalla:
 
-- print(“...") imprimeix text per pantalla
-- println(“...") imprimeix text per pantalla i introdueix un salt de línia.
+- print("...") imprimeix text per pantalla
+- println("...") imprimeix text per pantalla i introdueix un salt de línia.
 
 La utilització de System.err seria totalment anàloga per a enviar els missatges produïts per errors en l'execució (és el canal que usa també el compilador per a notificar els errors trobats).  
 
