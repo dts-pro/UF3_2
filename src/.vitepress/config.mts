@@ -5,9 +5,9 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
   lang: 'ca-ES',
-  title: 'UF3.2',
+  title: 'UF3.1',
   description: 'Descripció',
-  base: '/UF3_2/',
+  base: '/UF3_1/',
   outDir: '../docs',
   markdown: {
     config(md) {
@@ -27,7 +27,7 @@ export default withMermaid({
     //['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Introducció a Java',
+    siteTitle: 'Introducció a la Programació',
     logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/' },
@@ -90,3 +90,4 @@ export default withMermaid({
     }
   }
 })
+
