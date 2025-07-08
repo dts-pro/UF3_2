@@ -27,7 +27,7 @@ export default withMermaid({
     //['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Introducció a la Programació',
+    siteTitle: 'Introducció',
     logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/' },
